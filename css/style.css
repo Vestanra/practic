@@ -184,7 +184,10 @@ header {
 .button-hamburger-close-icon {
     stroke: var(--color-white-default);
 }
-
+.button-hamburger-close:hover,
+.button-hamburger-close:hover {
+    margin-bottom: 76px;
+}
 .button-hamburger-close-icon:hover,
 .button-hamburger-close-icon:focus {
     stroke: var(--color-orange);
