@@ -145,6 +145,8 @@ header {
 .mobile-menu {
     position: fixed;
     top: 0;
+    right: 0;
+    margin: 0;
     padding: 20px;
     padding-right: 20px;
     padding-left: 20px;
