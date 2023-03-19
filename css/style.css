@@ -185,6 +185,17 @@ header {
 .button-hamburger-close-icon {
     stroke: var(--color-white-default);
 }
+.button-hamburger-close:hover,
+.button-hamburger-close:hover {
+    width: 40px;
+    height: 40px;
+}
+.button-hamburger-close-icon:hover,
+.button-hamburger-close-icon:hover {
+    width: 40px;
+    height: 40px;
+    stroke: var(--color-orange);
+}
 .soc-icon-menu {   
     stroke: var(--color-white-default);
 }
