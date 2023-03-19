@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+    <header class="header ">
+        <div class="header-container container">
+            <nav class="header-navigation">
+                <div class="header-logo-wrap">
+                    <a class="header-logo link" href=""><span class="header-logo-first">SIMPLY</span> CHOCOLATE</a>
+                    <svg class="header-logo-icon">
+                        <use href="./img/icons.svg#chocolate-logo"></use>
+                    </svg>
+                </div>
+                <div class="header-list-wrap">
+                    <ul class="header-list">
+                        <li class="header-item"><a class="header-link" href="#">Home</a></li>
+                        <li class="header-item"><a class="header-link" href="#">How it’s made?</a></li>
+                        <li class="header-item"><a class="header-link" href="#">Our products</a></li>
+                        <li class="header-item"><a class="header-link" href="#">Top sellers</a></li>
+                        <li class="header-item"><a class="header-link" href="#">Chocolate is loved</a></li>
+                    </ul>
+                </div>
+                <div class="header-soc-list-wrap">
+                    <ul class="header-soc-list">
+                        <li><a href="#" rel="noopener noreferrer nofollow" target="_blank">
+                            <svg class="header-soc-icon" width="24" height="24">
+                                <use href="./img/icons.svg#instagram"></use>
+                            </svg>
+                        </a></li>
+                        <li><a href="#" rel="noopener noreferrer nofollow" target="_blank">
+                            <svg class="header-soc-icon" width="24" height="24">
+                                <use href="./img/icons.svg#twitter"></use>
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="button-hamburger-wrap">
+                    <button class="button-hamburger-open" type="button" class="button-hamburger-open" aria-expanded="false" aria-controls="mobile-menu">
+                        <svg class="button-hamburger-icon">
+                            <use class="mobile-burger" href="./img/icons.svg#mobile-burger"></use>
+                            <use class="tablet-burger" href="./img/icons.svg#tablet-burger"></use>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        
+        <div class="mobile-menu">
+            <div class="container-menu">
+                <div class="header-list-wrap-menu">
+                <button type="button" class="button-hamburger-close">
+                    <svg class="button-hamburger-close-icon" width="28" height="28">
+                        <use href="./img/icons.svg#close-modal"></use>
+                    </svg>
+                </button>
+                    <ul class="header-list-menu">
+                        <li class="header-item-menu"><a class="header-link-menu" href="#">Home</a></li>
+                        <li class="header-item-menu"><a class="header-link-menu" href="#">How it’s made?</a></li>
+                        <li class="header-item-menu"><a class="header-link-menu" href="#">Our products</a></li>
+                        <li class="header-item-menu"><a class="header-link-menu" href="#">Top sellers</a></li>
+                        <li class="header-item-menu"><a class="header-link-menu" href="#">Chocolate is loved</a></li>
+                    </ul>
+                </div>
+                <div class="header-soc-list-wrap-menu">
+                    <ul class="header-soc-list-menu">
+                        <li class="header-item-icon-menu"><a class="header-link-icon-menu" href="#" rel="noopener noreferrer nofollow" target="_blank">
+                                <svg class="soc-icon-menu" width="22" height="22">
+                                    <use href="./img/icons.svg#instagram"></use>
+                                </svg>
+                            </a></li>
+                        <li><a href="#" rel="noopener noreferrer nofollow" target="_blank">
+                                <svg class="soc-icon-menu" width="20" height="20">
+                                    <use href="./img/icons.svg#twitter"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="top-sellers">
+            <div class="top-sellers-container container">
+                <h2 class="top-sellers-title"><span class="top-sellers-title-color">tOp</span> Sellers</h2>
+                <ul class="top-sellers-list">
+                    <li class="top-sellers-item">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="../img/top-sellers/desktop-top-sellers-set.jpg 1x, ../img/top-sellers/desktop-top-sellers-set@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="../img/top-sellers/tablet-top-sellers-set.jpg 1x, ../img/top-sellers/tablet-top-sellers-set@2x.jpg 2x">
+                            <source media="(max-width: 767px)"
+                                srcset="../img/top-sellers/mobile-top-sellers-set.jpg 1x, ../img/top-sellers/mobile-top-sellers-set@2x.jpg 2x">
+                            <img class="top-sellers-img" src="../img/top-sellers/desktop-top-sellers-set.jpg"
+                                alt="chocolate and nut">
+                        </picture>
+                        <p class="top-sellers-text top-sellers-text-mobile">Crazy enough chocolate originates from a bean just
+                            like the coffee bean called Cacao. Cacao
+                            has been around for
+                            thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+                    </li>
+                    <li class="top-sellers-item">
+                        <picture class="top-sellers-img">
+                            <source media="(min-width: 1200px)"
+                                srcset="../img/top-sellers/desktop-top-sellers-pyramid-nuts.jpg 1x, ../img/top-sellers/desktop-top-sellers-pyramid-nuts@2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="../img/top-sellers/tablet-top-sellers-pyramid-nuts.jpg 1x, ../img/top-sellers/tablet-top-sellers-pyramid-nuts@2x.jpg 2x">
+                            <source media="(max-width: 767px)"
+                                srcset="../img/top-sellers/mobile-top-sellers-pyramid-nuts.jpg 1x, ../img/top-sellers/mobile-top-sellers-pyramid-nuts@2x.jpg 2x">
+                            <img class="top-sellers-img" src="../img/top-sellers/desktop-top-sellers-pyramid-nuts.jpg"
+                                alt="chocolate">
+                        </picture>
+                    </li>
+                    <li class="top-sellers-item">
+                        <picture class="top-sellers-img">
+                            <source media="(min-width: 1200px)"
+                                srcset="../img/top-sellers/desktop-top-sellers-pyramid.jpg 1x, ../img/top-sellers/desktop-top-sellers-pyramid@2x.jpg 2x">
+                            <img class="top-sellers-img" src="../img/top-sellers/desktop-top-sellers-pyramid.jpg"
+                                alt="chocolate pyramid">
+                        </picture>
+                    </li>
+                </ul>
+                <div class="top-sellers-about">
+                    <p class="top-sellers-text top-sellers-text-desktop">Crazy enough chocolate originates from a bean just like
+                        the coffee bean called Cacao. Cacao has been around for
+                        thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+                    <button class="top-sellers-button" type="button">Buy now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
