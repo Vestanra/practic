@@ -176,8 +176,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    width: 28px;
-    height: 28px;
+    padding: 0;
     margin-bottom: 88px;
     border: none;
     background-color: var(--color-dark-purple);
@@ -185,14 +184,12 @@ header {
 .button-hamburger-close-icon {
     stroke: var(--color-white-default);
 }
-.button-hamburger-close:hover,
-.button-hamburger-close:hover {
-    width: 40px;
-    height: 40px;
-}
+
 .button-hamburger-close-icon:hover,
 .button-hamburger-close-icon:focus {
     stroke: var(--color-orange);
+    width: 40px;
+    height: 40px;
 }
 .soc-icon-menu:hover,
 .soc-icon-menu:focus {
